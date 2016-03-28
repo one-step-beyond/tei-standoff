@@ -1,0 +1,119 @@
+<! DOCTYPE>
+<html>
+	<head>
+		<title>Reveal Element base idea</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				
+				var state = false;
+				$('button[data-action=reveal]').click(function() {
+					var el = $('.reveal');
+					
+					if(state === false) {
+						if(el.length > 1) {
+							for (var i = 0; i < el.length; i++) {
+								RevealElement( $(el[i]) );
+							};
+						}
+						else 
+						{
+							RevealElement(el)
+						}
+
+						$('body').append('<div class="revealOverlay"></div>');
+						CanRemoveOverlay();
+					}
+					else 
+					{
+						RemoveReveal();
+					}
+				});
+
+				function RevealElement(el) {
+					var	p = el.position(),
+						w = el.width(),
+						h = el.height();
+
+					el.addClass('revealElement');
+					$('body').append('<div class="revealOn" style="top:'+ p.top +'px; left:'+ p.left +'px; width:'+ w +'px; height:'+ h +'px; "></div>');
+				}
+
+				function CanRemoveOverlay() {
+					$('.revealOverlay').click(function() { 
+						RemoveReveal();
+					});
+				};
+
+				function RemoveReveal() {
+					var el = $('.reveal');
+					el.removeClass('revealElement');
+					$('.revealOverlay').remove();
+					$('.revealOn').remove();
+				}
+			});
+		</script>
+		<style>
+			body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			.wrapper {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			/* 
+			 * Reveal
+			 */
+			.revealOverlay {
+				bottom: 0;
+			    left: 0;
+			    position: fixed;
+			    right: 0;
+			    top: 0;
+			   	opacity: 0.8;
+			    background-color: black;
+				z-index: 8;
+			}
+			.revealOn {
+				position: absolute;
+				z-index: 9;
+				background-color: rgba(255, 255, 255, 0.9);
+				border: 1px solid rgba(0, 0, 0, 0.5);
+			    border-radius: 4px;
+			    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+			}
+			.revealElement {
+				position: relative;
+				z-index: 10 !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Hello Word</h1>
+			<button data-action="reveal">Reveal</button>
+			<h1>On many p elements in one div </h1>
+			<div>
+				<p class="reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida felis vestibulum, sollicitudin nisl sed, aliquam ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut nec pharetra tortor. Nam non eros justo. In in elit vitae massa varius tincidunt. Praesent lobortis, diam non pretium bibendum, tortor quam commodo metus, gravida ullamcorper nisl lectus in eros. Maecenas et eros vel lectus feugiat rutrum ac non nisl. Donec accumsan lectus ac tellus mattis porta. Ut vitae nisl nunc.</p>
+				<p>Suspendisse eu nunc enim. Praesent sagittis diam eget diam lacinia, at consequat felis placerat. Sed ac faucibus sem. Maecenas eu ornare felis. Etiam non eleifend diam, nec volutpat tellus. Nulla et quam elementum dolor tempus vehicula. Nam venenatis gravida nulla a rhoncus. In sit amet enim quis libero volutpat ultrices.</p>
+				<p>Sed mattis porttitor viverra. Donec ac tortor ut velit aliquam condimentum a nec elit. Quisque eu quam purus. Sed hendrerit velit ac pellentesque mattis. Donec nunc sem, laoreet vel aliquam vitae, viverra vitae ligula. Phasellus vel feugiat erat. Praesent vestibulum dapibus vestibulum. Donec laoreet neque nec dolor vulputate ultricies. Aliquam in odio sollicitudin massa imperdiet scelerisque non pulvinar orci.</p>
+				<p class="reveal">Proin viverra lectus eget mattis hendrerit. Morbi tortor elit, suscipit vel varius et, fringilla vel risus. Praesent fermentum sit amet purus eu tempus. Phasellus lobortis semper arcu. Quisque sapien ante, sagittis vel erat sit amet, fermentum vulputate nisi. Aliquam vehicula egestas tristique. Sed tincidunt nunc nec ultrices porttitor. Proin ultricies semper turpis at porta.</p>
+				<p>Nulla imperdiet quam eget magna dictum condimentum. Donec ante lorem, vestibulum in lorem non, porttitor euismod sapien. Donec odio massa, pulvinar at erat aliquam, cursus vehicula velit. Vivamus nibh risus, consectetur vitae massa nec, mollis interdum elit. Fusce eleifend suscipit eros, id mollis ante. Integer dignissim convallis velit sed blandit. Sed eget sagittis erat. Quisque malesuada erat velit, non tempus sem consequat quis. Nam erat velit, lobortis non pretium non, blandit eget eros. Quisque convallis bibendum aliquam.</p>
+			</div>
+			<h1>On div with many p elements</h1>
+			<div class="reveal">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida felis vestibulum, sollicitudin nisl sed, aliquam ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut nec pharetra tortor. Nam non eros justo. In in elit vitae massa varius tincidunt. Praesent lobortis, diam non pretium bibendum, tortor quam commodo metus, gravida ullamcorper nisl lectus in eros. Maecenas et eros vel lectus feugiat rutrum ac non nisl. Donec accumsan lectus ac tellus mattis porta. Ut vitae nisl nunc.</p>
+				<p>Suspendisse eu nunc enim. Praesent sagittis diam eget diam lacinia, at consequat felis placerat. Sed ac faucibus sem. Maecenas eu ornare felis. Etiam non eleifend diam, nec volutpat tellus. Nulla et quam elementum dolor tempus vehicula. Nam venenatis gravida nulla a rhoncus. In sit amet enim quis libero volutpat ultrices.</p>
+				<p>Sed mattis porttitor viverra. Donec ac tortor ut velit aliquam condimentum a nec elit. Quisque eu quam purus. Sed hendrerit velit ac pellentesque mattis. Donec nunc sem, laoreet vel aliquam vitae, viverra vitae ligula. Phasellus vel feugiat erat. Praesent vestibulum dapibus vestibulum. Donec laoreet neque nec dolor vulputate ultricies. Aliquam in odio sollicitudin massa imperdiet scelerisque non pulvinar orci.</p>
+				<p>Proin viverra lectus eget mattis hendrerit. Morbi tortor elit, suscipit vel varius et, fringilla vel risus. Praesent fermentum sit amet purus eu tempus. Phasellus lobortis semper arcu. Quisque sapien ante, sagittis vel erat sit amet, fermentum vulputate nisi. Aliquam vehicula egestas tristique. Sed tincidunt nunc nec ultrices porttitor. Proin ultricies semper turpis at porta.</p>
+				<p>Nulla imperdiet quam eget magna dictum condimentum. Donec ante lorem, vestibulum in lorem non, porttitor euismod sapien. Donec odio massa, pulvinar at erat aliquam, cursus vehicula velit. Vivamus nibh risus, consectetur vitae massa nec, mollis interdum elit. Fusce eleifend suscipit eros, id mollis ante. Integer dignissim convallis velit sed blandit. Sed eget sagittis erat. Quisque malesuada erat velit, non tempus sem consequat quis. Nam erat velit, lobortis non pretium non, blandit eget eros. Quisque convallis bibendum aliquam.</p>
+			</div>
+		</div>
+	</body>
+</html>

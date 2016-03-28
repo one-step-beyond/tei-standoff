@@ -1,0 +1,101 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+$(document).ready(function(){
+    $("button.a").click(function(){
+        $(".alfa").toggleClass("alf");
+    });
+});
+</script>
+        
+<script type="text/javascript">
+    function loadCanvas(id) {
+        var canvas = document.createElement('canvas'),
+            div = document.getElementById(id);
+
+        canvas.id     = "myCanvas";
+/*
+        canvas.style.left="0px";
+        canvas.style.top="0px";
+        canvas.style.width="100%";
+        canvas.style.height="100%";
+  */
+
+        canvas.style.width = div.scrollWidth+"px";
+        canvas.style.height = div.scrollHeight+"px";
+        // You must set this otherwise the canvas will be streethed to fit the container
+        canvas.width=div.scrollWidth;        
+        canvas.height=div.scrollHeight;    
+ 
+        canvas.style.left=div.style.left;
+        canvas.style.top=div.style.top;
+        
+        canvas.style.zIndex   = 8;
+        canvas.style.position = "absolute";
+        canvas.style.overflow = "visible";
+        canvas.style.border   = "1px solid red";
+        div.appendChild(canvas);
+        
+        window.alert('aaaa');
+              var context=canvas.getContext('2d');
+
+//draw boxes around all .alfa elements
+//this is just for starters
+//ultimately I'd be drawing boxes around stretches of text between and including two elements
+    var elems = $('.alfa');
+    var coords ='coo \n';
+    for (i=0; i < elems.length; i++) {
+ 
+         coords += + i + ': top = ' + elems[i].offsetTop 
+            + ' left = ' + elems[i].offsetLeft
+            + ' width = ' + elems[i].offsetWidth 
+            +  ' height = ' + elems[i].offsetHeight 
+            + '\n';
+            context.beginPath();
+            context.rect(
+                               elems[i].offsetLeft,
+                               elems[i].offsetTop,
+                               elems[i].offsetWidth,
+                               elems[i].offsetHeight
+                               );
+           context.stroke();
+   }
+//      window.alert(coords);
+ }
+</script>
+        <style>
+            .alf{
+                font-size:120%;
+                color:red;
+                background-color:#faa;
+            }
+        </style>
+    </head>
+
+    <body id="bdy">
+        <button class="a">Toggle class for "alfa" elements</button>
+        <button onclick="loadCanvas('cnv')">Overlay div</button>
+        <button onclick="loadCanvas('bdy')">Overlay whole body</button>
+
+        <div id="cnv" style="border: 1px solid blue;">
+            <div style="margin: 20px; padding: 10px;">
+                <p class="alfa beta">This is a paragraph.</p>
+                <p class="beta gamma">This is another paragraph.</p>
+                <p class="gamma"><b>Note:</b> This is a paragraph. This is another
+                    paragraph. No. <span class="alfa">Sorry but there is a difference between faith and trust. Faith is
+                    belief in spite of lack of evidence that there is anything supernatural. Some
+                    ppl even tout this belief without evidence as a virtue.</span> Trust is belief that
+                    some more qualified ppl have looked at real evidence, but that you could do so
+                    if you could be arsed. Faith is not, imho, a virtue but something that should be
+                    ridiculed. Trust is something that needs to be earned and verified. Note: Click
+                    the button more than once to see the toggle effect. Click the button more than
+                    once to see the toggle effect.</p>
+                <p id="demo"> Your content goes here </p>
+                <p>Blah</p>
+            </div>
+        </div>
+    </body>
+
+</html>
