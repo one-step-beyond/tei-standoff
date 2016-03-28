@@ -1,2 +1,1 @@
-# schema
-Schema for the TEI document containing standoff markup
+Our proposal includes a notation for a TEI standoff markup, transformation from inline to standoff markup and visualization of the standoff document.
