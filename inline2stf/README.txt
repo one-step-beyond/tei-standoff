@@ -1,4 +1,4 @@
-The file 'ex1_inline.xml' and 'ex2_inline.xml' contain a text encoded using usual TEI inline markup.
+The file *ex1_inline.xml* and 'ex2_inline.xml' contain a text encoded using usual TEI inline markup.
 
 The file 'inline2stf.xsl' is the XSLT stylesheet that transforms the document with inline markup to a document with standoff markup.
 
