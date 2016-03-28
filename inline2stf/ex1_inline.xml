@@ -1,0 +1,209 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- ponctuation --><!-- allographes -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lancelot BnF fr. 1430</title>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ES">Elena Spadini</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Internal Use Only</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque Nationale de France</institution>
+                        <repository>Départment des manuscrits</repository>
+                        <collection>fond français (f. fr.)</collection>
+                        <idno>1430</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>hystoire du roy artus &amp; de la table ronde</title>
+                        <origDate notBefore="1200" notAfter="1250">Première moitié du XIII
+                            siècle</origDate>
+                        <origPlace>Champagne</origPlace>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <title>Roman de Lancelot en prose</title>
+                            <author>Anonyme connu sous le nome de "Pseudo-Map"</author>
+                            <textLang mainLang="afr">Ancien français</textLang>
+                            <listBibl>
+                                <bibl>A. Micha, Les manuscrits du Lancelot en prose, Romania 81
+                                    (1960), 145-87.</bibl>
+                                <bibl>D. Delcorno Branca, Tristano e Lancillotto in Italia, Bologna
+                                    1998.</bibl>
+                                <bibl>Album des manuscrits français du XIII siècle. Mise en page et
+                                    mise en texte, par M. Careri et al., Rome 2001.</bibl>
+                                <bibl>Catalogue des mss. de la BnF</bibl>
+                            </listBibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc>
+                                <support>
+                                    <material>Parchemin.</material>
+                                    <dimensions unit="mm">
+                                        <height>275</height>
+                                        <width>190</width>
+                                    </dimensions>
+                                </support>
+                                <extent>287 ff.</extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>Au moins deux mains (changement aux f. 77 et 92)</p>
+                        </handDesc>
+                        <scriptDesc>
+                            <p>Ronde, posée, sans recherche calligraphique mais bien lisible.</p>
+                        </scriptDesc>
+                        <decoDesc>
+                            <p>Aucune peinture. Initiales puzzle ornées de motifs floraux (5 à 6
+                                lignes) au début des chapitres. Lettres filigranées au début des
+                                paragraphes. Petites initiales alternativement rouges et bleues à
+                                l'intérieur des paragraphes. Elements du style Manerius.</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <p>Le manuscrit a appartenu à Valentine Visconti qui le fit relier, en 1402,
+                            par Jacques Richier.</p>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="afr">Ancient french</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="lancelot"/>
+                    <person xml:id="vaslet"/>
+                    <person xml:id="morgain"/>
+                    <person xml:id="damoisele"/>
+                    <person xml:id="yvain"/>
+                    <person xml:id="ducClarence"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <pb n="219v"/>
+                <cb n="219v-a"/>
+                <lb/>
+                <hi rend="lettrine">Ne</hi> demora gaires que un <persName ref="#vaslet">vaslet</persName> en<lb break="no"/>tra leienz
+                si vint devant <persName ref="#morgain">mor<lb break="no"/>gain</persName>
+                <choice>
+                    <orig>7</orig>
+                    <reg>et</reg>
+                </choice> li dit <q who="#vaslet">Dame noveles vos sai <lb/>dire assez estranges</q>
+                <q who="#morgain">Queles</q> fait ele <lb/>
+                <q who="#vaslet">par foi</q> fet il <q who="#vaslet">tuit li enchantement de
+                        <unclear resp="#ES" reason="uncertain reading">cei<lb/>enz</unclear>
+                    <note resp="#ES">The first part of the word is difficault to read.
+                            Ceienz could be a satisfactory reading, as it occurs
+                        frequently, e.g. some lines later.</note> sont remes <choice>
+                        <orig>7</orig>
+                        <reg>et</reg>
+                    </choice> les eissues de cet val <lb/>
+                    <choice>
+                        <orig>7</orig>
+                        <reg>et</reg>
+                    </choice> les <choice>
+                        <orig>entréés</orig>
+                        <reg>entrées</reg>
+                    </choice> sont <choice>
+                        <orig>defferméés</orig>
+                        <reg>deffermées</reg>
+                    </choice> si poez ia <lb/>trover hors des portes plus de <choice>
+                        <orig>c</orig>
+                        <reg>C</reg>
+                    </choice> chevaliers <cb n="219v-b"/>
+                    <lb/>qui ont este ceienz en prison</q>
+                <q who="#morgain">Comment est ce <lb/>avenu</q> fet <persName ref="#morgain"
+                    >mor<lb/>gain</persName>
+                <q who="#morgain">qui a ce fet</q>
+                <q who="#vaslet">Da<lb/>me</q> fet il <q who="#vaslet">ce a fet cel chevalier la qui
+                    hui a <lb/>tant fet d'armes que onquemes chevalier n'en fist <lb/>autant</q>
+                Quant li <persName ref="#vaslet">vaslet</persName> out ce dit si entra <lb/>leienz li
+                chevalier qui estoit amis <persName ref="#morgain">morgain</persName>
+                <lb/>celui por cui les merveilles avoient este <lb/>feites <choice>
+                    <orig>7</orig>
+                    <reg>et</reg>
+                </choice> quant il vit <persName ref="#lancelot">lancelot</persName> si li dit que bien
+                <lb/>soit il venuz comme la flor des chevaliers do <lb/> monde si se lesse a ses
+                piez chaoir <q who="#morgain">e'non<lb/> deu</q> fet morgain <q who="#morgain">mes
+                    mau soit il ve<lb/>nu come li chevaliers do monde qui plus a mau <lb/>fet que
+                    nus</q>
+                <q who="#damoisele">ha dame</q> fet la damoisele que <lb/>apres lancelot estoit
+                venue <q who="#damoisele">qu'est ce que vos <lb/>avez dit C'est li meillors
+                    chevalier do mon<lb/>de <choice>
+                        <orig>7</orig>
+                        <reg>et</reg>
+                    </choice> li plus hardiz qui onc nasquist <lb/>
+                    <choice>
+                        <orig>7</orig>
+                        <reg>et</reg>
+                    </choice> est si leaux cum il i pert </q>
+                <q who="#morgain">Coment a il nom</q>
+                <lb/>fet <persName ref="#morgain">morgain</persName>
+                <q who="#damoisele">Dame</q> fet ele <q who="#damoisele">il a non <persName
+                        ref="#lancelot">lancelot</persName>
+                </q>
+                <lb/>
+                <q who="#morgain">ha</q> fet ele <q who="#morgain">lancelot honnie soit l'ore que si
+                    <lb/>grant leaute fu en vos mise <choice>
+                        <orig>7</orig>
+                        <reg>et</reg>
+                    </choice> vos <lb/>soiez maleoiz quant vos en cest pais en<lb/>trastes <choice>
+                        <reg>et</reg>
+                        <orig>7</orig>
+                    </choice> honnie soit la dame desle<lb/>aux qui de vos est si desleaument <choice>
+                        <orig>améé</orig>
+                        <reg>amée</reg>
+                    </choice>
+                    <lb/>car il n'a gaires de leaute dedenz le</q>
+                <lb/>
+                <q>E'non deu</q> fet sis amis <q>mes bien <lb/>soit il venuz cum li plus vaillanz
+                    <lb/>chevalier do monde</q> Maintenant se part de <lb/>leienz <choice>
+                    <orig>7</orig>
+                    <reg>et</reg>
+                </choice> ne demoira gaires qu'il a<pb n="220r"/><cb n="220r-a"/>mena monseignor <persName
+                    ref="#yvain">yvain</persName>
+                <choice>
+                    <orig>7</orig>
+                    <reg>et</reg>
+                </choice> le <persName ref="#ducClarence">duc de <lb/>clarence</persName>
+                <choice>
+                    <orig>7</orig>
+                    <reg>et</reg>
+                </choice> les autres 
+                <choice>
+                    <orig>í</orig>
+                    <reg>I</reg>
+                    </choice>
+                <choice>
+                    <orig>í</orig>
+                    <reg>I</reg>
+                </choice>
+                <choice>
+                    <orig>í</orig>
+                    <reg>I</reg>
+                </choice> compaignons <lb/>si li firent mult grant ioie 
+                <choice>
+                    <orig>7</orig>
+                    <reg>et</reg>
+                </choice> li chairent <lb/>as piez comme celui qui les a de mort <lb/>delivrez </p>
+        </body>
+    </text>
+</TEI>

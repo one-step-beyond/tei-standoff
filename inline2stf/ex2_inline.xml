@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Page from Tristram Shandy</title>
+            <author xml:id="LS">Laurence Sterne</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="MB">Misha Broughton</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Internal Use Only</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Page Scan of First Edition Tristram Shandy, 1760,
+               www.fulltable.com/vts/t/ts/e/g/htm</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <p>
+            <gap reason="previous page"/>
+            <lb/>I am, that I have begun the history of 
+            <lb/>myself in the way I have done; and
+            <lb/>that I am able to go on tracing every 
+            <lb/>thing in it, as <hi rend="ital"><persName>Horace</persName> says</hi>, <foreign rend="ital">ab Ovo</foreign>. </p>
+         <p>
+            <lb/><hi rend="ital"><persName>Horace</persName></hi>, I know, does not recommend 
+            <lb/>this fashion altogether: But that gentle
+            <lb break="no" rend="hyphen"/>man is speaking only of an epic poem or
+            <lb/>a tragedy;-(I forget which)-besides, 
+            <lb/>if it was not so, I should beg Mr. <hi rend="ital"><persName>Horace's</persName></hi>
+            <lb/>pardon;-for in writing what I have set
+            <lb/>about, I shall confine myself neither to
+            <lb/>his rules, nor to any man's rules that ever
+            <lb/><note resp="#LS">lived.</note> </p>
+         <p>
+            <lb/>To such, however, as do not choose to
+            <lb/>go so far back into these things, I can
+            <lb/>give no better advice, than that they
+            <lb/>skip over the remaining part of this
+            <lb/>Chapter; for I declare before hand, 'tis
+            <pb/>
+            <lb/>wrote only for the curious and inquisi <lb break="no" rend="hyphen"/>tive. </p>
+         <p>
+            <lb/>-Shut the door.- <!-- Ah, the famous shut the door... only these aren't really em-dashes, are they? -->
+            <lb/>I was begot in the night, betwixt the first
+            <lb/><hi rend="ital">Sunday</hi> and the first <hi rend="ital">Monday</hi> in the month
+            <lb/>of <hi rend="ital">March</hi>,in the year of our Lord one
+            <lb/>thousand seven hundred and eighteen.
+            <lb/>I am positive I was.-But how I came
+            <lb/>to be so very particular in my account
+            <lb/>of a thing which happened before I was
+            <lb/>born, is owing to another small anecdonte
+            <lb/>known only in our own family, but now
+            <lb/>made public for the better clearing up
+            <lb/>this point. </p>
+         <p>
+            <lb/>My father, you must know, who was
+            <lb/>originally a <hi rend="ital"><choice>
+                  <sic>Turky</sic>
+                  <corr>Turkey</corr>
+               </choice></hi> merchant, but had left
+            <lb/>off business for some years, in order to
+            <lb/>retire to, and die upon, his paternal estate
+            <lb/>in the country of-, was, I believe, <gap reason="next page"/>
+         </p>
+      </body>
+   </text>
+</TEI>

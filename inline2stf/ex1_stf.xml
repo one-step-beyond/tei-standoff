@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/stf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standoff>
+      <stf xml:id="stf_page">
+         <div type="page" stf_from="#w1" stf_to="#w317"/>
+         <div type="page" stf_from="#w318" stf_to="#w351"/>
+      </stf>
+      <stf xml:id="stf_column">
+         <div type="column" n="219v-a" stf_from="#w1" stf_to="#w61"/>
+         <div type="column" n="219v-b" stf_from="#w62" stf_to="#w317"/>
+         <div type="column" n="220r-a" stf_from="#w318" stf_to="#w351"/>
+      </stf>
+      <stf xml:id="stf_line">
+         <div type="line" stf_from="#w1" stf_to="#w7"/>
+         <div type="line" stf_from="#w8" stf_to="#w13"/>
+         <div type="line" stf_from="#w14" stf_to="#w21"/>
+         <div type="line" stf_from="#w22" stf_to="#w27"/>
+         <div type="line" stf_from="#w28" stf_to="#w36"/>
+         <div type="line" stf_from="#w37" stf_to="#w45"/>
+         <div type="line" stf_from="#w46" stf_to="#w53"/>
+         <div type="line" stf_from="#w54" stf_to="#w61"/>
+         <div type="line" stf_from="#w62" stf_to="#w70"/>
+         <div type="line" stf_from="#w71" stf_to="#w73"/>
+         <div type="line" stf_from="#w74" stf_to="#w79"/>
+         <div type="line" stf_from="#w80" stf_to="#w91"/>
+         <div type="line" stf_from="#w92" stf_to="#w103"/>
+         <div type="line" stf_from="#w104" stf_to="#w112"/>
+         <div type="line" stf_from="#w113" stf_to="#w119"/>
+         <div type="line" stf_from="#w120" stf_to="#w126"/>
+         <div type="line" stf_from="#w127" stf_to="#w137"/>
+         <div type="line" stf_from="#w138" stf_to="#w146"/>
+         <div type="line" stf_from="#w147" stf_to="#w157"/>
+         <div type="line" stf_from="#w158" stf_to="#w165"/>
+         <div type="line" stf_from="#w166" stf_to="#w175"/>
+         <div type="line" stf_from="#w176" stf_to="#w184"/>
+         <div type="line" stf_from="#w185" stf_to="#w194"/>
+         <div type="line" stf_from="#w195" stf_to="#w204"/>
+         <div type="line" stf_from="#w205" stf_to="#w212"/>
+         <div type="line" stf_from="#w213" stf_to="#w224"/>
+         <div type="line" stf_from="#w225" stf_to="#w233"/>
+         <div type="line" stf_from="#w234" stf_to="#w244"/>
+         <div type="line" stf_from="#w245" stf_to="#w252"/>
+         <div type="line" stf_from="#w253" stf_to="#w260"/>
+         <div type="line" stf_from="#w261" stf_to="#w267"/>
+         <div type="line" stf_from="#w268" stf_to="#w275"/>
+         <div type="line" stf_from="#w276" stf_to="#w285"/>
+         <div type="line" stf_from="#w286" stf_to="#w294"/>
+         <div type="line" stf_from="#w295" stf_to="#w301"/>
+         <div type="line" stf_from="#w302" stf_to="#w308"/>
+         <div type="line" stf_from="#w309" stf_to="#w324"/>
+         <div type="line" stf_from="#w325" stf_to="#w332"/>
+         <div type="line" stf_from="#w333" stf_to="#w341"/>
+         <div type="line" stf_from="#w342" stf_to="#w350"/>
+         <div type="line" n="" stf_target="#w351"/>
+      </stf>
+      <stf xml:id="stf_persName">
+         <persName stf_target="#w6"/>
+         <persName stf_from="w13" stf_to="w14"/>
+         <persName stf_from="w73" stf_to="w74"/>
+         <persName stf_target="#w107"/>
+         <persName stf_target="#w119"/>
+         <persName stf_target="#w132"/>
+         <persName stf_target="#w226"/>
+         <persName stf_target="#w233"/>
+         <persName stf_target="#w320"/>
+         <persName stf_from="w323" stf_to="w325"/>
+      </stf>
+      <stf xml:id="stf_hi">
+         <hi stf_target="#w1" rend="lettrine"/>
+      </stf>
+      <stf xml:id="stf_choice_reg">
+         <reg stf_target="#w15">et</reg>
+         <reg stf_target="#w40">et</reg>
+         <reg stf_target="#w46">et</reg>
+         <reg stf_target="#w48">entrées</reg>
+         <reg stf_target="#w50">deffermées</reg>
+         <reg stf_target="#w60">C</reg>
+         <reg stf_target="#w128">et</reg>
+         <reg stf_target="#w206">et</reg>
+         <reg stf_target="#w213">et</reg>
+         <reg stf_target="#w251">et</reg>
+         <reg stf_target="#w262">et</reg>
+         <reg stf_target="#w275">amée</reg>
+         <reg stf_target="#w310">et</reg>
+         <reg stf_target="#w321">et</reg>
+         <reg stf_target="#w326">et</reg>
+         <reg stf_target="#w329">I</reg>
+         <reg stf_target="#w330">I</reg>
+         <reg stf_target="#w331">I</reg>
+         <reg stf_target="#w339">et</reg>
+      </stf>
+      <stf xml:id="stf_unclear">
+         <unclear stf_from="#w36" stf_to="#w37" reason="uncertain reading"/>
+      </stf>
+      <stf xml:id="stf_note">
+         <note stf_target="#w37" resp="#ES">The first part of the word is difficault to read.
+                            Ceienz could be a satisfactory reading, as it occurs
+                        frequently, e.g. some lines later.</note>
+      </stf>
+   </standoff>
+   <stf_text>
+      <div>
+         <seg xml:id="w1">Ne</seg>
+         <seg xml:id="w2">demora</seg>
+         <seg xml:id="w3">gaires</seg>
+         <seg xml:id="w4">que</seg>
+         <seg xml:id="w5">un</seg>
+         <seg xml:id="w6">vaslet</seg>
+         <seg xml:id="w7">en</seg>
+         <seg xml:id="w8">tra</seg>
+         <seg xml:id="w9">leienz</seg>
+         <seg xml:id="w10">si</seg>
+         <seg xml:id="w11">vint</seg>
+         <seg xml:id="w12">devant</seg>
+         <seg xml:id="w13">mor</seg>
+         <seg xml:id="w14">gain</seg>
+         <seg xml:id="w15">7</seg>
+         <seg xml:id="w16">li</seg>
+         <seg xml:id="w17">dit</seg>
+         <seg xml:id="w18">Dame</seg>
+         <seg xml:id="w19">noveles</seg>
+         <seg xml:id="w20">vos</seg>
+         <seg xml:id="w21">sai</seg>
+         <seg xml:id="w22">dire</seg>
+         <seg xml:id="w23">assez</seg>
+         <seg xml:id="w24">estranges</seg>
+         <seg xml:id="w25">Queles</seg>
+         <seg xml:id="w26">fait</seg>
+         <seg xml:id="w27">ele</seg>
+         <seg xml:id="w28">par</seg>
+         <seg xml:id="w29">foi</seg>
+         <seg xml:id="w30">fet</seg>
+         <seg xml:id="w31">il</seg>
+         <seg xml:id="w32">tuit</seg>
+         <seg xml:id="w33">li</seg>
+         <seg xml:id="w34">enchantement</seg>
+         <seg xml:id="w35">de</seg>
+         <seg xml:id="w36">cei</seg>
+         <seg xml:id="w37">enz</seg>
+         <seg xml:id="w38">sont</seg>
+         <seg xml:id="w39">remes</seg>
+         <seg xml:id="w40">7</seg>
+         <seg xml:id="w41">les</seg>
+         <seg xml:id="w42">eissues</seg>
+         <seg xml:id="w43">de</seg>
+         <seg xml:id="w44">cet</seg>
+         <seg xml:id="w45">val</seg>
+         <seg xml:id="w46">7</seg>
+         <seg xml:id="w47">les</seg>
+         <seg xml:id="w48">entréés</seg>
+         <seg xml:id="w49">sont</seg>
+         <seg xml:id="w50">defferméés</seg>
+         <seg xml:id="w51">si</seg>
+         <seg xml:id="w52">poez</seg>
+         <seg xml:id="w53">ia</seg>
+         <seg xml:id="w54">trover</seg>
+         <seg xml:id="w55">hors</seg>
+         <seg xml:id="w56">des</seg>
+         <seg xml:id="w57">portes</seg>
+         <seg xml:id="w58">plus</seg>
+         <seg xml:id="w59">de</seg>
+         <seg xml:id="w60">c</seg>
+         <seg xml:id="w61">chevaliers</seg>
+         <seg xml:id="w62">qui</seg>
+         <seg xml:id="w63">ont</seg>
+         <seg xml:id="w64">este</seg>
+         <seg xml:id="w65">ceienz</seg>
+         <seg xml:id="w66">en</seg>
+         <seg xml:id="w67">prison</seg>
+         <seg xml:id="w68">Comment</seg>
+         <seg xml:id="w69">est</seg>
+         <seg xml:id="w70">ce</seg>
+         <seg xml:id="w71">avenu</seg>
+         <seg xml:id="w72">fet</seg>
+         <seg xml:id="w73">mor</seg>
+         <seg xml:id="w74">gain</seg>
+         <seg xml:id="w75">qui</seg>
+         <seg xml:id="w76">a</seg>
+         <seg xml:id="w77">ce</seg>
+         <seg xml:id="w78">fet</seg>
+         <seg xml:id="w79">Da</seg>
+         <seg xml:id="w80">me</seg>
+         <seg xml:id="w81">fet</seg>
+         <seg xml:id="w82">il</seg>
+         <seg xml:id="w83">ce</seg>
+         <seg xml:id="w84">a</seg>
+         <seg xml:id="w85">fet</seg>
+         <seg xml:id="w86">cel</seg>
+         <seg xml:id="w87">chevalier</seg>
+         <seg xml:id="w88">la</seg>
+         <seg xml:id="w89">qui</seg>
+         <seg xml:id="w90">hui</seg>
+         <seg xml:id="w91">a</seg>
+         <seg xml:id="w92">tant</seg>
+         <seg xml:id="w93">fet</seg>
+         <seg xml:id="w94">d</seg>
+         <seg xml:id="seg95">'</seg>
+         <seg xml:id="w96">armes</seg>
+         <seg xml:id="w97">que</seg>
+         <seg xml:id="w98">onquemes</seg>
+         <seg xml:id="w99">chevalier</seg>
+         <seg xml:id="w100">n</seg>
+         <seg xml:id="seg101">'</seg>
+         <seg xml:id="w102">en</seg>
+         <seg xml:id="w103">fist</seg>
+         <seg xml:id="w104">autant</seg>
+         <seg xml:id="w105">Quant</seg>
+         <seg xml:id="w106">li</seg>
+         <seg xml:id="w107">vaslet</seg>
+         <seg xml:id="w108">out</seg>
+         <seg xml:id="w109">ce</seg>
+         <seg xml:id="w110">dit</seg>
+         <seg xml:id="w111">si</seg>
+         <seg xml:id="w112">entra</seg>
+         <seg xml:id="w113">leienz</seg>
+         <seg xml:id="w114">li</seg>
+         <seg xml:id="w115">chevalier</seg>
+         <seg xml:id="w116">qui</seg>
+         <seg xml:id="w117">estoit</seg>
+         <seg xml:id="w118">amis</seg>
+         <seg xml:id="w119">morgain</seg>
+         <seg xml:id="w120">celui</seg>
+         <seg xml:id="w121">por</seg>
+         <seg xml:id="w122">cui</seg>
+         <seg xml:id="w123">les</seg>
+         <seg xml:id="w124">merveilles</seg>
+         <seg xml:id="w125">avoient</seg>
+         <seg xml:id="w126">este</seg>
+         <seg xml:id="w127">feites</seg>
+         <seg xml:id="w128">7</seg>
+         <seg xml:id="w129">quant</seg>
+         <seg xml:id="w130">il</seg>
+         <seg xml:id="w131">vit</seg>
+         <seg xml:id="w132">lancelot</seg>
+         <seg xml:id="w133">si</seg>
+         <seg xml:id="w134">li</seg>
+         <seg xml:id="w135">dit</seg>
+         <seg xml:id="w136">que</seg>
+         <seg xml:id="w137">bien</seg>
+         <seg xml:id="w138">soit</seg>
+         <seg xml:id="w139">il</seg>
+         <seg xml:id="w140">venuz</seg>
+         <seg xml:id="w141">comme</seg>
+         <seg xml:id="w142">la</seg>
+         <seg xml:id="w143">flor</seg>
+         <seg xml:id="w144">des</seg>
+         <seg xml:id="w145">chevaliers</seg>
+         <seg xml:id="w146">do</seg>
+         <seg xml:id="w147">monde</seg>
+         <seg xml:id="w148">si</seg>
+         <seg xml:id="w149">se</seg>
+         <seg xml:id="w150">lesse</seg>
+         <seg xml:id="w151">a</seg>
+         <seg xml:id="w152">ses</seg>
+         <seg xml:id="w153">piez</seg>
+         <seg xml:id="w154">chaoir</seg>
+         <seg xml:id="w155">e</seg>
+         <seg xml:id="seg156">'</seg>
+         <seg xml:id="w157">non</seg>
+         <seg xml:id="w158">deu</seg>
+         <seg xml:id="w159">fet</seg>
+         <seg xml:id="w160">morgain</seg>
+         <seg xml:id="w161">mes</seg>
+         <seg xml:id="w162">mau</seg>
+         <seg xml:id="w163">soit</seg>
+         <seg xml:id="w164">il</seg>
+         <seg xml:id="w165">ve</seg>
+         <seg xml:id="w166">nu</seg>
+         <seg xml:id="w167">come</seg>
+         <seg xml:id="w168">li</seg>
+         <seg xml:id="w169">chevaliers</seg>
+         <seg xml:id="w170">do</seg>
+         <seg xml:id="w171">monde</seg>
+         <seg xml:id="w172">qui</seg>
+         <seg xml:id="w173">plus</seg>
+         <seg xml:id="w174">a</seg>
+         <seg xml:id="w175">mau</seg>
+         <seg xml:id="w176">fet</seg>
+         <seg xml:id="w177">que</seg>
+         <seg xml:id="w178">nus</seg>
+         <seg xml:id="w179">ha</seg>
+         <seg xml:id="w180">dame</seg>
+         <seg xml:id="w181">fet</seg>
+         <seg xml:id="w182">la</seg>
+         <seg xml:id="w183">damoisele</seg>
+         <seg xml:id="w184">que</seg>
+         <seg xml:id="w185">apres</seg>
+         <seg xml:id="w186">lancelot</seg>
+         <seg xml:id="w187">estoit</seg>
+         <seg xml:id="w188">venue</seg>
+         <seg xml:id="w189">qu</seg>
+         <seg xml:id="seg190">'</seg>
+         <seg xml:id="w191">est</seg>
+         <seg xml:id="w192">ce</seg>
+         <seg xml:id="w193">que</seg>
+         <seg xml:id="w194">vos</seg>
+         <seg xml:id="w195">avez</seg>
+         <seg xml:id="w196">dit</seg>
+         <seg xml:id="w197">C</seg>
+         <seg xml:id="seg198">'</seg>
+         <seg xml:id="w199">est</seg>
+         <seg xml:id="w200">li</seg>
+         <seg xml:id="w201">meillors</seg>
+         <seg xml:id="w202">chevalier</seg>
+         <seg xml:id="w203">do</seg>
+         <seg xml:id="w204">mon</seg>
+         <seg xml:id="w205">de</seg>
+         <seg xml:id="w206">7</seg>
+         <seg xml:id="w207">li</seg>
+         <seg xml:id="w208">plus</seg>
+         <seg xml:id="w209">hardiz</seg>
+         <seg xml:id="w210">qui</seg>
+         <seg xml:id="w211">onc</seg>
+         <seg xml:id="w212">nasquist</seg>
+         <seg xml:id="w213">7</seg>
+         <seg xml:id="w214">est</seg>
+         <seg xml:id="w215">si</seg>
+         <seg xml:id="w216">leaux</seg>
+         <seg xml:id="w217">cum</seg>
+         <seg xml:id="w218">il</seg>
+         <seg xml:id="w219">i</seg>
+         <seg xml:id="w220">pert</seg>
+         <seg xml:id="w221">Coment</seg>
+         <seg xml:id="w222">a</seg>
+         <seg xml:id="w223">il</seg>
+         <seg xml:id="w224">nom</seg>
+         <seg xml:id="w225">fet</seg>
+         <seg xml:id="w226">morgain</seg>
+         <seg xml:id="w227">Dame</seg>
+         <seg xml:id="w228">fet</seg>
+         <seg xml:id="w229">ele</seg>
+         <seg xml:id="w230">il</seg>
+         <seg xml:id="w231">a</seg>
+         <seg xml:id="w232">non</seg>
+         <seg xml:id="w233">lancelot</seg>
+         <seg xml:id="w234">ha</seg>
+         <seg xml:id="w235">fet</seg>
+         <seg xml:id="w236">ele</seg>
+         <seg xml:id="w237">lancelot</seg>
+         <seg xml:id="w238">honnie</seg>
+         <seg xml:id="w239">soit</seg>
+         <seg xml:id="w240">l</seg>
+         <seg xml:id="seg241">'</seg>
+         <seg xml:id="w242">ore</seg>
+         <seg xml:id="w243">que</seg>
+         <seg xml:id="w244">si</seg>
+         <seg xml:id="w245">grant</seg>
+         <seg xml:id="w246">leaute</seg>
+         <seg xml:id="w247">fu</seg>
+         <seg xml:id="w248">en</seg>
+         <seg xml:id="w249">vos</seg>
+         <seg xml:id="w250">mise</seg>
+         <seg xml:id="w251">7</seg>
+         <seg xml:id="w252">vos</seg>
+         <seg xml:id="w253">soiez</seg>
+         <seg xml:id="w254">maleoiz</seg>
+         <seg xml:id="w255">quant</seg>
+         <seg xml:id="w256">vos</seg>
+         <seg xml:id="w257">en</seg>
+         <seg xml:id="w258">cest</seg>
+         <seg xml:id="w259">pais</seg>
+         <seg xml:id="w260">en</seg>
+         <seg xml:id="w261">trastes</seg>
+         <seg xml:id="w262">7</seg>
+         <seg xml:id="w263">honnie</seg>
+         <seg xml:id="w264">soit</seg>
+         <seg xml:id="w265">la</seg>
+         <seg xml:id="w266">dame</seg>
+         <seg xml:id="w267">desle</seg>
+         <seg xml:id="w268">aux</seg>
+         <seg xml:id="w269">qui</seg>
+         <seg xml:id="w270">de</seg>
+         <seg xml:id="w271">vos</seg>
+         <seg xml:id="w272">est</seg>
+         <seg xml:id="w273">si</seg>
+         <seg xml:id="w274">desleaument</seg>
+         <seg xml:id="w275">améé</seg>
+         <seg xml:id="w276">car</seg>
+         <seg xml:id="w277">il</seg>
+         <seg xml:id="w278">n</seg>
+         <seg xml:id="seg279">'</seg>
+         <seg xml:id="w280">a</seg>
+         <seg xml:id="w281">gaires</seg>
+         <seg xml:id="w282">de</seg>
+         <seg xml:id="w283">leaute</seg>
+         <seg xml:id="w284">dedenz</seg>
+         <seg xml:id="w285">le</seg>
+         <seg xml:id="w286">E</seg>
+         <seg xml:id="seg287">'</seg>
+         <seg xml:id="w288">non</seg>
+         <seg xml:id="w289">deu</seg>
+         <seg xml:id="w290">fet</seg>
+         <seg xml:id="w291">sis</seg>
+         <seg xml:id="w292">amis</seg>
+         <seg xml:id="w293">mes</seg>
+         <seg xml:id="w294">bien</seg>
+         <seg xml:id="w295">soit</seg>
+         <seg xml:id="w296">il</seg>
+         <seg xml:id="w297">venuz</seg>
+         <seg xml:id="w298">cum</seg>
+         <seg xml:id="w299">li</seg>
+         <seg xml:id="w300">plus</seg>
+         <seg xml:id="w301">vaillanz</seg>
+         <seg xml:id="w302">chevalier</seg>
+         <seg xml:id="w303">do</seg>
+         <seg xml:id="w304">monde</seg>
+         <seg xml:id="w305">Maintenant</seg>
+         <seg xml:id="w306">se</seg>
+         <seg xml:id="w307">part</seg>
+         <seg xml:id="w308">de</seg>
+         <seg xml:id="w309">leienz</seg>
+         <seg xml:id="w310">7</seg>
+         <seg xml:id="w311">ne</seg>
+         <seg xml:id="w312">demoira</seg>
+         <seg xml:id="w313">gaires</seg>
+         <seg xml:id="w314">qu</seg>
+         <seg xml:id="seg315">'</seg>
+         <seg xml:id="w316">il</seg>
+         <seg xml:id="w317">a</seg>
+         <seg xml:id="w318">mena</seg>
+         <seg xml:id="w319">monseignor</seg>
+         <seg xml:id="w320">yvain</seg>
+         <seg xml:id="w321">7</seg>
+         <seg xml:id="w322">le</seg>
+         <seg xml:id="w323">duc</seg>
+         <seg xml:id="w324">de</seg>
+         <seg xml:id="w325">clarence</seg>
+         <seg xml:id="w326">7</seg>
+         <seg xml:id="w327">les</seg>
+         <seg xml:id="w328">autres</seg>
+         <seg xml:id="w329">í</seg>
+         <seg xml:id="w330">í</seg>
+         <seg xml:id="w331">í</seg>
+         <seg xml:id="w332">compaignons</seg>
+         <seg xml:id="w333">si</seg>
+         <seg xml:id="w334">li</seg>
+         <seg xml:id="w335">firent</seg>
+         <seg xml:id="w336">mult</seg>
+         <seg xml:id="w337">grant</seg>
+         <seg xml:id="w338">ioie</seg>
+         <seg xml:id="w339">7</seg>
+         <seg xml:id="w340">li</seg>
+         <seg xml:id="w341">chairent</seg>
+         <seg xml:id="w342">as</seg>
+         <seg xml:id="w343">piez</seg>
+         <seg xml:id="w344">comme</seg>
+         <seg xml:id="w345">celui</seg>
+         <seg xml:id="w346">qui</seg>
+         <seg xml:id="w347">les</seg>
+         <seg xml:id="w348">a</seg>
+         <seg xml:id="w349">de</seg>
+         <seg xml:id="w350">mort</seg>
+         <seg xml:id="w351">delivrez</seg>
+      </div>
+   </stf_text>
+</TEI>

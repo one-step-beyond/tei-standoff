@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/stf.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <standoff>
+      <stf xml:id="stf_page">
+         <div type="page" stf_from="#w1" stf_to="#w164"/>
+         <div type="page" stf_from="#w165" stf_to="#pc314"/>
+      </stf>
+      <stf xml:id="stf_line">
+         <div type="line" stf_from="#w1" stf_to="#w10"/>
+         <div type="line" stf_from="#w11" stf_to="#w19"/>
+         <div type="line" stf_from="#w20" stf_to="#w28"/>
+         <div type="line" stf_from="#w29" stf_to="#pc39"/>
+         <div type="line" stf_from="#w40" stf_to="#w47"/>
+         <div type="line" stf_from="#w48" stf_to="#w54"/>
+         <div type="line" stf_from="#w55" stf_to="#w63"/>
+         <div type="line" stf_from="#w64" stf_to="#pc75"/>
+         <div type="line" stf_from="#w76" stf_to="#w89"/>
+         <div type="line" stf_from="#w90" stf_to="#w99"/>
+         <div type="line" stf_from="#w100" stf_to="#w107"/>
+         <div type="line" stf_from="#w108" stf_to="#w119"/>
+         <div type="line" stf_from="#w120" stf_to="#w119"/>
+         <div type="line" stf_from="#w120" stf_to="#w129"/>
+         <div type="line" stf_from="#w130" stf_to="#w139"/>
+         <div type="line" stf_from="#w140" stf_to="#w147"/>
+         <div type="line" stf_from="#w148" stf_to="#w154"/>
+         <div type="line" stf_from="#w155" stf_to="#w164"/>
+         <div type="line" stf_from="#w165" stf_to="#w171"/>
+         <div type="line" stf_from="#w172" stf_to="#pc173"/>
+         <div type="line" stf_from="#pc174" stf_to="#pc179"/>
+         <div type="line" stf_from="#w180" stf_to="#w189"/>
+         <div type="line" stf_from="#w190" stf_to="#w197"/>
+         <div type="line" stf_from="#w198" stf_to="#w207"/>
+         <div type="line" stf_from="#w208" stf_to="#pc213"/>
+         <div type="line" stf_from="#w214" stf_to="#w224"/>
+         <div type="line" stf_from="#w225" stf_to="#w232"/>
+         <div type="line" stf_from="#w233" stf_to="#w240"/>
+         <div type="line" stf_from="#w241" stf_to="#w248"/>
+         <div type="line" stf_from="#w249" stf_to="#w257"/>
+         <div type="line" stf_from="#w258" stf_to="#w264"/>
+         <div type="line" stf_from="#w265" stf_to="#pc267"/>
+         <div type="line" stf_from="#w268" stf_to="#w276"/>
+         <div type="line" stf_from="#w277" stf_to="#w284"/>
+         <div type="line" stf_from="#w285" stf_to="#w293"/>
+         <div type="line" stf_from="#w294" stf_to="#w303"/>
+         <div type="line" stf_from="#w304" stf_to="#pc314"/>
+      </stf>
+      <stf xml:id="stf_persName">
+         <persName stf_target="#w34"/>
+         <persName stf_target="#w40"/>
+         <persName stf_from="w87" stf_to="w89"/>
+      </stf>
+      <stf xml:id="stf_hi">
+         <hi stf_from="#w34" stf_to="#w35" rend="ital"/>
+         <hi stf_target="#w40" rend="ital"/>
+         <hi stf_from="#w87" stf_to="#w89" rend="ital"/>
+         <hi stf_target="#w190" rend="ital"/>
+         <hi stf_target="#w194" rend="ital"/>
+         <hi stf_target="#w199" rend="ital"/>
+         <hi stf_target="#w279" rend="ital"/>
+      </stf>
+      <stf xml:id="stf_choice_corr">
+         <corr stf_target="#w279">Turkey</corr>
+      </stf>
+      <stf xml:id="stf_note">
+         <note stf_target="#w119" resp="#LS">lived.</note>
+      </stf>
+   </standoff>
+   <stf_text>
+      <div>
+         <seg xml:id="w1">I</seg>
+         <seg xml:id="w2">am</seg>
+         <seg xml:id="pc3">,</seg>
+         <seg xml:id="w4">that</seg>
+         <seg xml:id="w5">I</seg>
+         <seg xml:id="w6">have</seg>
+         <seg xml:id="w7">begun</seg>
+         <seg xml:id="w8">the</seg>
+         <seg xml:id="w9">history</seg>
+         <seg xml:id="w10">of</seg>
+         <seg xml:id="w11">myself</seg>
+         <seg xml:id="w12">in</seg>
+         <seg xml:id="w13">the</seg>
+         <seg xml:id="w14">way</seg>
+         <seg xml:id="w15">I</seg>
+         <seg xml:id="w16">have</seg>
+         <seg xml:id="w17">done</seg>
+         <seg xml:id="pc18">;</seg>
+         <seg xml:id="w19">and</seg>
+         <seg xml:id="w20">that</seg>
+         <seg xml:id="w21">I</seg>
+         <seg xml:id="w22">am</seg>
+         <seg xml:id="w23">able</seg>
+         <seg xml:id="w24">to</seg>
+         <seg xml:id="w25">go</seg>
+         <seg xml:id="w26">on</seg>
+         <seg xml:id="w27">tracing</seg>
+         <seg xml:id="w28">every</seg>
+         <seg xml:id="w29">thing</seg>
+         <seg xml:id="w30">in</seg>
+         <seg xml:id="w31">it</seg>
+         <seg xml:id="pc32">,</seg>
+         <seg xml:id="w33">as</seg>
+         <seg xml:id="w34">Horace</seg>
+         <seg xml:id="w35">says</seg>
+         <seg xml:id="pc36">,</seg>
+         <seg xml:id="w37">ab</seg>
+         <seg xml:id="w38">Ovo</seg>
+         <seg xml:id="pc39">.</seg>
+         <seg xml:id="w40">Horace</seg>
+         <seg xml:id="pc41">,</seg>
+         <seg xml:id="w42">I</seg>
+         <seg xml:id="w43">know</seg>
+         <seg xml:id="pc44">,</seg>
+         <seg xml:id="w45">does</seg>
+         <seg xml:id="w46">not</seg>
+         <seg xml:id="w47">recommend</seg>
+         <seg xml:id="w48">this</seg>
+         <seg xml:id="w49">fashion</seg>
+         <seg xml:id="w50">altogether</seg>
+         <seg xml:id="pc51">:</seg>
+         <seg xml:id="w52">But</seg>
+         <seg xml:id="w53">that</seg>
+         <seg xml:id="w54">gentle</seg>
+         <seg xml:id="w55">man</seg>
+         <seg xml:id="w56">is</seg>
+         <seg xml:id="w57">speaking</seg>
+         <seg xml:id="w58">only</seg>
+         <seg xml:id="w59">of</seg>
+         <seg xml:id="w60">an</seg>
+         <seg xml:id="w61">epic</seg>
+         <seg xml:id="w62">poem</seg>
+         <seg xml:id="w63">or</seg>
+         <seg xml:id="w64">a</seg>
+         <seg xml:id="w65">tragedy</seg>
+         <seg xml:id="pc66">;</seg>
+         <seg xml:id="pc67">-</seg>
+         <seg xml:id="seg68">(</seg>
+         <seg xml:id="w69">I</seg>
+         <seg xml:id="w70">forget</seg>
+         <seg xml:id="w71">which</seg>
+         <seg xml:id="seg72">)</seg>
+         <seg xml:id="pc73">-</seg>
+         <seg xml:id="w74">besides</seg>
+         <seg xml:id="pc75">,</seg>
+         <seg xml:id="w76">if</seg>
+         <seg xml:id="w77">it</seg>
+         <seg xml:id="w78">was</seg>
+         <seg xml:id="w79">not</seg>
+         <seg xml:id="w80">so</seg>
+         <seg xml:id="pc81">,</seg>
+         <seg xml:id="w82">I</seg>
+         <seg xml:id="w83">should</seg>
+         <seg xml:id="w84">beg</seg>
+         <seg xml:id="w85">Mr</seg>
+         <seg xml:id="pc86">.</seg>
+         <seg xml:id="w87">Horace</seg>
+         <seg xml:id="seg88">'</seg>
+         <seg xml:id="w89">s</seg>
+         <seg xml:id="w90">pardon</seg>
+         <seg xml:id="pc91">;</seg>
+         <seg xml:id="pc92">-</seg>
+         <seg xml:id="w93">for</seg>
+         <seg xml:id="w94">in</seg>
+         <seg xml:id="w95">writing</seg>
+         <seg xml:id="w96">what</seg>
+         <seg xml:id="w97">I</seg>
+         <seg xml:id="w98">have</seg>
+         <seg xml:id="w99">set</seg>
+         <seg xml:id="w100">about</seg>
+         <seg xml:id="pc101">,</seg>
+         <seg xml:id="w102">I</seg>
+         <seg xml:id="w103">shall</seg>
+         <seg xml:id="w104">confine</seg>
+         <seg xml:id="w105">myself</seg>
+         <seg xml:id="w106">neither</seg>
+         <seg xml:id="w107">to</seg>
+         <seg xml:id="w108">his</seg>
+         <seg xml:id="w109">rules</seg>
+         <seg xml:id="pc110">,</seg>
+         <seg xml:id="w111">nor</seg>
+         <seg xml:id="w112">to</seg>
+         <seg xml:id="w113">any</seg>
+         <seg xml:id="w114">man</seg>
+         <seg xml:id="seg115">'</seg>
+         <seg xml:id="w116">s</seg>
+         <seg xml:id="w117">rules</seg>
+         <seg xml:id="w118">that</seg>
+         <seg xml:id="w119">ever</seg>
+         <seg xml:id="w120">To</seg>
+         <seg xml:id="w121">such</seg>
+         <seg xml:id="pc122">,</seg>
+         <seg xml:id="w123">however</seg>
+         <seg xml:id="pc124">,</seg>
+         <seg xml:id="w125">as</seg>
+         <seg xml:id="w126">do</seg>
+         <seg xml:id="w127">not</seg>
+         <seg xml:id="w128">choose</seg>
+         <seg xml:id="w129">to</seg>
+         <seg xml:id="w130">go</seg>
+         <seg xml:id="w131">so</seg>
+         <seg xml:id="w132">far</seg>
+         <seg xml:id="w133">back</seg>
+         <seg xml:id="w134">into</seg>
+         <seg xml:id="w135">these</seg>
+         <seg xml:id="w136">things</seg>
+         <seg xml:id="pc137">,</seg>
+         <seg xml:id="w138">I</seg>
+         <seg xml:id="w139">can</seg>
+         <seg xml:id="w140">give</seg>
+         <seg xml:id="w141">no</seg>
+         <seg xml:id="w142">better</seg>
+         <seg xml:id="w143">advice</seg>
+         <seg xml:id="pc144">,</seg>
+         <seg xml:id="w145">than</seg>
+         <seg xml:id="w146">that</seg>
+         <seg xml:id="w147">they</seg>
+         <seg xml:id="w148">skip</seg>
+         <seg xml:id="w149">over</seg>
+         <seg xml:id="w150">the</seg>
+         <seg xml:id="w151">remaining</seg>
+         <seg xml:id="w152">part</seg>
+         <seg xml:id="w153">of</seg>
+         <seg xml:id="w154">this</seg>
+         <seg xml:id="w155">Chapter</seg>
+         <seg xml:id="pc156">;</seg>
+         <seg xml:id="w157">for</seg>
+         <seg xml:id="w158">I</seg>
+         <seg xml:id="w159">declare</seg>
+         <seg xml:id="w160">before</seg>
+         <seg xml:id="w161">hand</seg>
+         <seg xml:id="pc162">,</seg>
+         <seg xml:id="seg163">'</seg>
+         <seg xml:id="w164">tis</seg>
+         <seg xml:id="w165">wrote</seg>
+         <seg xml:id="w166">only</seg>
+         <seg xml:id="w167">for</seg>
+         <seg xml:id="w168">the</seg>
+         <seg xml:id="w169">curious</seg>
+         <seg xml:id="w170">and</seg>
+         <seg xml:id="w171">inquisi</seg>
+         <seg xml:id="w172">tive</seg>
+         <seg xml:id="pc173">.</seg>
+         <seg xml:id="pc174">-</seg>
+         <seg xml:id="w175">Shut</seg>
+         <seg xml:id="w176">the</seg>
+         <seg xml:id="w177">door</seg>
+         <seg xml:id="pc178">.</seg>
+         <seg xml:id="pc179">-</seg>
+         <seg xml:id="w180">I</seg>
+         <seg xml:id="w181">was</seg>
+         <seg xml:id="w182">begot</seg>
+         <seg xml:id="w183">in</seg>
+         <seg xml:id="w184">the</seg>
+         <seg xml:id="w185">night</seg>
+         <seg xml:id="pc186">,</seg>
+         <seg xml:id="w187">betwixt</seg>
+         <seg xml:id="w188">the</seg>
+         <seg xml:id="w189">first</seg>
+         <seg xml:id="w190">Sunday</seg>
+         <seg xml:id="w191">and</seg>
+         <seg xml:id="w192">the</seg>
+         <seg xml:id="w193">first</seg>
+         <seg xml:id="w194">Monday</seg>
+         <seg xml:id="w195">in</seg>
+         <seg xml:id="w196">the</seg>
+         <seg xml:id="w197">month</seg>
+         <seg xml:id="w198">of</seg>
+         <seg xml:id="w199">March</seg>
+         <seg xml:id="pc200">,</seg>
+         <seg xml:id="w201">in</seg>
+         <seg xml:id="w202">the</seg>
+         <seg xml:id="w203">year</seg>
+         <seg xml:id="w204">of</seg>
+         <seg xml:id="w205">our</seg>
+         <seg xml:id="w206">Lord</seg>
+         <seg xml:id="w207">one</seg>
+         <seg xml:id="w208">thousand</seg>
+         <seg xml:id="w209">seven</seg>
+         <seg xml:id="w210">hundred</seg>
+         <seg xml:id="w211">and</seg>
+         <seg xml:id="w212">eighteen</seg>
+         <seg xml:id="pc213">.</seg>
+         <seg xml:id="w214">I</seg>
+         <seg xml:id="w215">am</seg>
+         <seg xml:id="w216">positive</seg>
+         <seg xml:id="w217">I</seg>
+         <seg xml:id="w218">was</seg>
+         <seg xml:id="pc219">.</seg>
+         <seg xml:id="pc220">-</seg>
+         <seg xml:id="w221">But</seg>
+         <seg xml:id="w222">how</seg>
+         <seg xml:id="w223">I</seg>
+         <seg xml:id="w224">came</seg>
+         <seg xml:id="w225">to</seg>
+         <seg xml:id="w226">be</seg>
+         <seg xml:id="w227">so</seg>
+         <seg xml:id="w228">very</seg>
+         <seg xml:id="w229">particular</seg>
+         <seg xml:id="w230">in</seg>
+         <seg xml:id="w231">my</seg>
+         <seg xml:id="w232">account</seg>
+         <seg xml:id="w233">of</seg>
+         <seg xml:id="w234">a</seg>
+         <seg xml:id="w235">thing</seg>
+         <seg xml:id="w236">which</seg>
+         <seg xml:id="w237">happened</seg>
+         <seg xml:id="w238">before</seg>
+         <seg xml:id="w239">I</seg>
+         <seg xml:id="w240">was</seg>
+         <seg xml:id="w241">born</seg>
+         <seg xml:id="pc242">,</seg>
+         <seg xml:id="w243">is</seg>
+         <seg xml:id="w244">owing</seg>
+         <seg xml:id="w245">to</seg>
+         <seg xml:id="w246">another</seg>
+         <seg xml:id="w247">small</seg>
+         <seg xml:id="w248">anecdonte</seg>
+         <seg xml:id="w249">known</seg>
+         <seg xml:id="w250">only</seg>
+         <seg xml:id="w251">in</seg>
+         <seg xml:id="w252">our</seg>
+         <seg xml:id="w253">own</seg>
+         <seg xml:id="w254">family</seg>
+         <seg xml:id="pc255">,</seg>
+         <seg xml:id="w256">but</seg>
+         <seg xml:id="w257">now</seg>
+         <seg xml:id="w258">made</seg>
+         <seg xml:id="w259">public</seg>
+         <seg xml:id="w260">for</seg>
+         <seg xml:id="w261">the</seg>
+         <seg xml:id="w262">better</seg>
+         <seg xml:id="w263">clearing</seg>
+         <seg xml:id="w264">up</seg>
+         <seg xml:id="w265">this</seg>
+         <seg xml:id="w266">point</seg>
+         <seg xml:id="pc267">.</seg>
+         <seg xml:id="w268">My</seg>
+         <seg xml:id="w269">father</seg>
+         <seg xml:id="pc270">,</seg>
+         <seg xml:id="w271">you</seg>
+         <seg xml:id="w272">must</seg>
+         <seg xml:id="w273">know</seg>
+         <seg xml:id="pc274">,</seg>
+         <seg xml:id="w275">who</seg>
+         <seg xml:id="w276">was</seg>
+         <seg xml:id="w277">originally</seg>
+         <seg xml:id="w278">a</seg>
+         <seg xml:id="w279">Turky</seg>
+         <seg xml:id="w280">merchant</seg>
+         <seg xml:id="pc281">,</seg>
+         <seg xml:id="w282">but</seg>
+         <seg xml:id="w283">had</seg>
+         <seg xml:id="w284">left</seg>
+         <seg xml:id="w285">off</seg>
+         <seg xml:id="w286">business</seg>
+         <seg xml:id="w287">for</seg>
+         <seg xml:id="w288">some</seg>
+         <seg xml:id="w289">years</seg>
+         <seg xml:id="pc290">,</seg>
+         <seg xml:id="w291">in</seg>
+         <seg xml:id="w292">order</seg>
+         <seg xml:id="w293">to</seg>
+         <seg xml:id="w294">retire</seg>
+         <seg xml:id="w295">to</seg>
+         <seg xml:id="pc296">,</seg>
+         <seg xml:id="w297">and</seg>
+         <seg xml:id="w298">die</seg>
+         <seg xml:id="w299">upon</seg>
+         <seg xml:id="pc300">,</seg>
+         <seg xml:id="w301">his</seg>
+         <seg xml:id="w302">paternal</seg>
+         <seg xml:id="w303">estate</seg>
+         <seg xml:id="w304">in</seg>
+         <seg xml:id="w305">the</seg>
+         <seg xml:id="w306">country</seg>
+         <seg xml:id="w307">of</seg>
+         <seg xml:id="pc308">-</seg>
+         <seg xml:id="pc309">,</seg>
+         <seg xml:id="w310">was</seg>
+         <seg xml:id="pc311">,</seg>
+         <seg xml:id="w312">I</seg>
+         <seg xml:id="w313">believe</seg>
+         <seg xml:id="pc314">,</seg>
+      </div>
+   </stf_text>
+</TEI>
